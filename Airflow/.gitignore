@@ -1,0 +1,56 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+*.env
+.env.*
+
+# Airflow-specific files
+airflow.cfg
+unittests.cfg
+webserver_config.py
+
+# Logs and PID files
+logs/
+*.log
+*.pid
+*.out
+
+# SQLite database files
+airflow.db
+*.db
+*.db-journal
+
+# DAGS (if dynamically generated)
+dags/__pycache__/
+dags/*.pyc
+
+# Temporary files
+temp/
+tmp/
+*.temp
+*.tmp
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+*.egg-info/
+
+# Python packages
+*.egg
+*.egg-info/
+*.dist-info/
+pip-log.txt
+
+# Airflow plugins (optional, if plugins are local and not
+
+
+# PostgreSQL data directories
+postgres-data/
